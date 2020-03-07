@@ -1,7 +1,6 @@
 # Live2D Widget
 
 ![](https://forthebadge.com/images/badges/built-with-love.svg)
-![](https://forthebadge.com/images/badges/uses-html.svg)
 ![](https://forthebadge.com/images/badges/made-with-javascript.svg)
 ![](https://forthebadge.com/images/badges/contains-cat-gifs.svg)
 ![](https://forthebadge.com/images/badges/powered-by-electricity.svg)
@@ -17,7 +16,7 @@ Add Live2D widget to web page. Compatible with PJAX.
 
 ## 示例 Demo
 
-在[梨花镇的阿肾](http://47.95.121.139/)的左下角可查看效果。
+在[季辛屯的小猫](http://175.24.83.54/)的左下角可查看效果。
 
 ![](assets/screenshot-1.png)
 ![](assets/screenshot-2.png)
