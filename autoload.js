@@ -1,5 +1,5 @@
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://cdn.jsdelivr.net/gh/iTomstudio/live2d-widget@latest/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/iTomstudio/live2d-widget/";
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -28,6 +28,7 @@ function loadExternalResource(url, type) {
  {
 	Promise.all([
 		loadExternalResource(live2d_path + "waifu.css", "css"),
+		loadExternalResource(live2d_path + "font-awesome.min.css", "css"),
 		loadExternalResource(live2d_path + "live2d.min.js", "js"),
 		loadExternalResource(live2d_path + "waifu-tips.js", "js")
 	]).then(() => {
